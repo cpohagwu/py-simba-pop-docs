@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.venv/
+venv/
+_build/
+.ipynb_checkpoints/
+.vscode/
+.claude/
+.idea/
+
+# Farm data never goes in git: the helper scripts write CSVs next to whatever
+# farm folder they are given. Only the two synthetic farms are tracked.
+docs/examples/data/*
+!docs/examples/data/synthetic/
+!docs/examples/data/synthetic_new_plantation/
+custom_params.yaml
+*_DOLE*.ipynb

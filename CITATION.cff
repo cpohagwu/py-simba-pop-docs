@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or its model in your research, please cite it as below."
+type: software
+authors:
+  - family-names: "Ohagwu"
+    given-names: "Collins Patrick"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+title: "py-simba-pop: A transparent, reproducible Python implementation of the SIMBA-POP banana cohort model"
+version: "0.4.1"
+date-released: "2026-10-01"
+license: Apache-2.0
+url: "https://github.com/cpohagwu/py-simba-pop-docs"
