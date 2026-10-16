@@ -31,6 +31,11 @@ bunches harvested each week.
    examples/02_initial_population_structure_and_growth_limits
    examples/03_validating_farm_simulation
 
-The notebooks run on two synthetic farms and use the helper scripts that sit
-next to them in ``docs/examples/`` of the
-`py-simba-pop-docs <https://github.com/cpohagwu/py-simba-pop-docs>`_ repository.
+The notebooks run on two synthetic farms, in ``docs/examples/`` of the
+`py-simba-pop-docs <https://github.com/cpohagwu/py-simba-pop-docs>`_
+repository; notebook 02 also uses py-simba-pop-tools.
+
+Attribution
+-----------
+
+A Python implementation of the SIMBA-POP cohort model described by Tixier, Malézieux & Dorel (2004, Ecological Modelling 180:407–417), including the flowering-rate correction of Ochoa (2010) and the cohort-basis reading of Guarín & Ochoa (2012). The engineering and the data-driven extensions (observed ribbon/bagging routing, Modes B/C) are by the author. Not affiliated with or endorsed by CIRAD or the original authors.

@@ -41,7 +41,6 @@ exclude_patterns = [
     "Thumbs.db",
     ".DS_Store",
     "**/.ipynb_checkpoints",
-    "examples/utils",
     "examples/data",
 ]
 

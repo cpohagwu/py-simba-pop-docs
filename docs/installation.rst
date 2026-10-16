@@ -60,9 +60,9 @@ needs openpyxl, which is not installed with the package:
 Example notebooks
 -----------------
 
-The ``notebooks`` extra installs what the example notebooks and their helper
-scripts use (Plotly, openpyxl, SciPy, nbconvert and ipykernel). The notebooks
-themselves live in the
+The ``notebooks`` extra installs what the example notebooks use (Plotly,
+openpyxl, SciPy, nbconvert and ipykernel); notebook 02 also uses
+py-simba-pop-tools. The notebooks themselves live in the
 `py-simba-pop-docs <https://github.com/cpohagwu/py-simba-pop-docs>`_
 repository:
 
@@ -74,12 +74,8 @@ repository:
 
 Open the notebooks from this folder, in VS Code or any Jupyter front end (for
 example ``python -m pip install jupyterlab`` and then ``jupyter lab``), so that
-their relative ``data/`` and ``utils/`` paths resolve.
+their relative ``data/`` paths resolve.
 
-The helper scripts in ``utils/`` are not part of the installed package. Run
-them as modules from the same folder:
-
-.. code-block:: bash
-
-   python -m utils.build_farm_inputs data/<farm>          # build a farm's canonical CSV files
-   python -m utils.build_custom_parameters data/<farm>    # fit your own harvest parameters
+Fitting your own harvest parameters and reconstructing an initial population
+from production records are done with py-simba-pop-tools. Converting a farm's
+own exports into the canonical files is the job of a farm-specific adapter.

@@ -112,9 +112,9 @@ leaves the original untouched:
    later_harvest = params.override("harvest", {"threshold_dd": 950.0})
    print(later_harvest.harvest["threshold_dd"], params.harvest["threshold_dd"])
 
-py-simba-pop contains no parameter-fitting code. ``utils/build_custom_parameters.py``
-in the docs repository is a worked recipe that fits harvest timing from
-ribbon-tagged records and writes such a YAML file.
+py-simba-pop contains no parameter-fitting code. py-simba-pop-tools
+(``py_simba_pop_tools.calibration``) fits harvest timing from ribbon-tagged
+records; save the result as such a YAML file.
 
 Starting from a field inventory
 -------------------------------

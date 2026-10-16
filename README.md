@@ -45,14 +45,18 @@ pip install "py-simba-pop[notebooks]"
 - [03_validating_farm_simulation.ipynb](docs/examples/03_validating_farm_simulation.ipynb):
   three ways to drive the engine, scored against the recorded harvest.
 
-The `data/` folder next to the notebooks holds the synthetic farm files, and
-`utils/` holds the helper scripts the notebooks use. Run the scripts from
-`docs/examples/`, for example `python -m utils.build_farm_inputs data/synthetic`.
+The `data/` folder next to the notebooks holds the synthetic farms' canonical
+CSV files. Notebook 02 also uses py-simba-pop-tools, for the initial-population
+reconstruction.
 
 ## Documentation
 
 User guides and the rendered notebooks are hosted on
 [Read the Docs](https://py-simba-pop.readthedocs.io).
+
+## Attribution
+
+A Python implementation of the SIMBA-POP cohort model described by Tixier, Malézieux & Dorel (2004, Ecological Modelling 180:407–417), including the flowering-rate correction of Ochoa (2010) and the cohort-basis reading of Guarín & Ochoa (2012). The engineering and the data-driven extensions (observed ribbon/bagging routing, Modes B/C) are by the author. Not affiliated with or endorsed by CIRAD or the original authors.
 
 ## Citation
 
