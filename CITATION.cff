@@ -7,7 +7,7 @@ authors:
     # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
 title: "py-simba-pop: A Python implementation of the SIMBA-POP banana cohort model"
 abstract: "A Python implementation of the SIMBA-POP cohort model described by Tixier, Malézieux & Dorel (2004, Ecological Modelling 180:407–417), including the flowering-rate correction of Ochoa (2010) and the cohort-basis reading of Guarín & Ochoa (2012). The engineering and the data-driven extensions (observed ribbon/bagging routing, Modes B/C) are by the author. Not affiliated with or endorsed by CIRAD or the original authors."
-version: "0.4.1"
-date-released: "2026-10-01"
+version: "0.4.2"
+date-released: "2026-10-17"
 license: Apache-2.0
 url: "https://github.com/cpohagwu/py-simba-pop-docs"
