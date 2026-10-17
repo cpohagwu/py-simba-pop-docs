@@ -5,9 +5,14 @@
 [![Documentation](https://readthedocs.org/projects/py-simba-pop/badge/?version=latest)](https://py-simba-pop.readthedocs.io/en/latest/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
-**py-simba-pop** is a transparent, reproducible Python implementation of
-**SIMBA-POP**, the banana cohort model published by Tixier, Malézieux & Dorel
-(2004), *Ecological Modelling* 180:407–417. One `SimbaPopEngine` drives every
+**py-simba-pop** is a Python implementation of the **SIMBA-POP** cohort model
+described by Tixier, Malézieux & Dorel (2004, *Ecological Modelling*
+180:407–417), including the flowering-rate correction of Ochoa (2010) and the
+cohort-basis reading of Guarín & Ochoa (2012). The engineering and the
+data-driven extensions (observed ribbon/bagging routing, Modes B/C) are by the
+author. Not affiliated with or endorsed by CIRAD or the original authors.
+
+One `SimbaPopEngine` drives every
 simulation, every input file type has exactly one standardized schema whichever
 farm the data comes from, and a bare seed population and a full field inventory
 are passed in the same way. Real ribbon-tag bagging and farm-wide
@@ -53,10 +58,6 @@ reconstruction.
 
 User guides and the rendered notebooks are hosted on
 [Read the Docs](https://py-simba-pop.readthedocs.io).
-
-## Attribution
-
-A Python implementation of the SIMBA-POP cohort model described by Tixier, Malézieux & Dorel (2004, Ecological Modelling 180:407–417), including the flowering-rate correction of Ochoa (2010) and the cohort-basis reading of Guarín & Ochoa (2012). The engineering and the data-driven extensions (observed ribbon/bagging routing, Modes B/C) are by the author. Not affiliated with or endorsed by CIRAD or the original authors.
 
 ## Citation
 

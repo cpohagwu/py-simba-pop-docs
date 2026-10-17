@@ -1,9 +1,14 @@
 py-simba-pop
 ============
 
-**py-simba-pop** is a transparent, reproducible Python implementation of
-**SIMBA-POP**, the banana cohort model published by Tixier, Malézieux & Dorel
-(2004), *Ecological Modelling* 180:407–417. It simulates a banana farm week by
+**py-simba-pop** is a Python implementation of the **SIMBA-POP** cohort model
+described by Tixier, Malézieux & Dorel (2004, *Ecological Modelling*
+180:407–417), including the flowering-rate correction of Ochoa (2010) and the
+cohort-basis reading of Guarín & Ochoa (2012). The engineering and the
+data-driven extensions (observed ribbon/bagging routing, Modes B/C) are by the
+author. Not affiliated with or endorsed by CIRAD or the original authors.
+
+py-simba-pop simulates a banana farm week by
 week from daily temperature and reports, among other outputs, the number of
 bunches harvested each week.
 
@@ -34,8 +39,3 @@ bunches harvested each week.
 The notebooks run on two synthetic farms, in ``docs/examples/`` of the
 `py-simba-pop-docs <https://github.com/cpohagwu/py-simba-pop-docs>`_
 repository; notebook 02 also uses py-simba-pop-tools.
-
-Attribution
------------
-
-A Python implementation of the SIMBA-POP cohort model described by Tixier, Malézieux & Dorel (2004, Ecological Modelling 180:407–417), including the flowering-rate correction of Ochoa (2010) and the cohort-basis reading of Guarín & Ochoa (2012). The engineering and the data-driven extensions (observed ribbon/bagging routing, Modes B/C) are by the author. Not affiliated with or endorsed by CIRAD or the original authors.
