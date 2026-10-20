@@ -40,7 +40,7 @@ initialize and validate the model on two synthetic farms:
 ```bash
 git clone https://github.com/cpohagwu/py-simba-pop-docs.git
 cd py-simba-pop-docs/docs/examples
-pip install "py-simba-pop[notebooks]"
+pip install "py-simba-pop[notebooks]" py-simba-pop-tools
 ```
 
 - [01_running_farm_simulation.ipynb](docs/examples/01_running_farm_simulation.ipynb):
@@ -51,8 +51,9 @@ pip install "py-simba-pop[notebooks]"
   three ways to drive the engine, scored against the recorded harvest.
 
 The `data/` folder next to the notebooks holds the synthetic farms' canonical
-CSV files. Notebook 02 also uses py-simba-pop-tools, for the initial-population
-reconstruction.
+CSV files. Notebooks 02 and 03 also use
+[py-simba-pop-tools](https://pypi.org/project/py-simba-pop-tools/), for the
+initial-population reconstruction and a cited desuckering practice.
 
 ## Documentation
 

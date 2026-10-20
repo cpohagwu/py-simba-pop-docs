@@ -38,4 +38,5 @@ bunches harvested each week.
 
 The notebooks run on two synthetic farms, in ``docs/examples/`` of the
 `py-simba-pop-docs <https://github.com/cpohagwu/py-simba-pop-docs>`_
-repository; notebook 02 also uses py-simba-pop-tools.
+repository; notebooks 02 and 03 also use
+`py-simba-pop-tools <https://pypi.org/project/py-simba-pop-tools/>`_.

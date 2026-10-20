@@ -61,14 +61,15 @@ Example notebooks
 -----------------
 
 The ``notebooks`` extra installs what the example notebooks use (Plotly,
-openpyxl, SciPy, nbconvert and ipykernel); notebook 02 also uses
-py-simba-pop-tools. The notebooks themselves live in the
+openpyxl, SciPy, nbconvert and ipykernel); notebooks 02 and 03 also use
+`py-simba-pop-tools <https://pypi.org/project/py-simba-pop-tools/>`_. The
+notebooks themselves live in the
 `py-simba-pop-docs <https://github.com/cpohagwu/py-simba-pop-docs>`_
 repository:
 
 .. code-block:: bash
 
-   python -m pip install "py-simba-pop[notebooks]"
+   python -m pip install "py-simba-pop[notebooks]" py-simba-pop-tools
    git clone https://github.com/cpohagwu/py-simba-pop-docs.git
    cd py-simba-pop-docs/docs/examples
 
